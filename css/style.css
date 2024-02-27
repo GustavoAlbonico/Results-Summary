@@ -39,8 +39,7 @@ mark {
 
 .result h1,
 .result p,
-.result-score span,
-.item-summary p{
+.result-score span{
     color: #c8c7ff ;
 }
 
@@ -70,7 +69,7 @@ main {
 
 .result-score{
     margin: 1.5rem auto;
-    max-width: 148px;
+    max-width: 157px;
     padding: 2.5rem;
     background: linear-gradient(0deg, rgba(78,33,202,0.1) 5%, rgba(14, 12, 82, 0.4) 100%);
     border-radius: 50%;
@@ -99,12 +98,47 @@ main {
 
 .summary {
     background-color: #fff;
-    padding: 3rem 2rem;
+    padding: 2rem 2.2rem;
+}
+
+.summary ul {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.summary h2 {
+    color: #303b5a;
+    font-weight: 800;
+    font-size: 22px;
 }
 
 .item-summary {
     display: flex;
     margin-bottom: 1rem;
-    gap: 5px;
-    border: 1px solid red;
+    width: 260px;
+    padding: 15px 15px;
+    background-color: rgb(188, 188, 212);
+    border-radius: 10px;
+}
+
+.item-summary p {
+    font-weight: 900;
+    color: hsl(224, 30%, 27%);
+    margin-left: auto;
+}
+
+.item-summary h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.summary a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px 15px;
+    width: 260px;
+    border-radius: 2rem;
+    text-align: center;
 }

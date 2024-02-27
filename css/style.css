@@ -1,0 +1,110 @@
+/* - Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+mark {
+    background-color: transparent;
+}
+
+.result h2,
+.result-score h3,
+.summary a{
+    color: #fff;
+}
+
+.result h1,
+.result p,
+.result-score span,
+.item-summary p{
+    color: #c8c7ff ;
+}
+
+body {
+    background-color: #ebf1ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+.result {
+    background: linear-gradient(180deg, rgb(110, 79, 238) 0%, rgba(46,43,233,1) 100%);
+    max-width: 300px;
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.result h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.result-score{
+    margin: 1.5rem auto;
+    max-width: 148px;
+    padding: 2.5rem;
+    background: linear-gradient(0deg, rgba(78,33,202,0.1) 5%, rgba(14, 12, 82, 0.4) 100%);
+    border-radius: 50%;
+
+}
+
+.result-score h3 {
+    line-height: 1;
+    font-size: 3.5rem;
+}
+
+.result-score span {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.result h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.result p {
+    font-size: 15px;
+    padding: 10px
+}
+
+.summary {
+    background-color: #fff;
+    padding: 3rem 2rem;
+}
+
+.item-summary {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 5px;
+    border: 1px solid red;
+}

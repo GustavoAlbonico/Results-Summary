@@ -106,7 +106,7 @@ main {
 }
 
 .item-summary p {
-    font-weight: 900;
+    font-weight: 600;
     color: rgba(48, 59, 90,0.5);
     margin-left: auto;
     font-size: 18px;
